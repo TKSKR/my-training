@@ -1,25 +1,9 @@
-import tkinter as tk
+full_name = input("Введите фамилию: ")
 
-window = tk.Tk()
-window.title("Okno")
+# Разделение строки на имя и фамилию
+name, surname = full_name.split()
 
-def validate(new_value):
-    try:
-        if new_value == "" or new_value == "-" or new_value == "+":
-            return True
-        _str = str(float(new_value))
-        return True
-    except:
-        return False
+# Вывод имени и фамилии на экран
+print("Имя:", name)
+print("Фамилия:", surname)
 
-
-que = tk.Label(window, text="Введите цифры")
-
-vcmd = (window.register(validate), '%P')
-ans = tk.Entry(window, validate='key', validatecommand=vcmd)
-
-que.grid(row=0, column=0, sticky="e")
-ans.grid(row=0, column=1)
-ans.focus()
-
-window.mainloop()
