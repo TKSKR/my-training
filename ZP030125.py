@@ -63,7 +63,7 @@ def get_salary_increase():
 
 
 def get_work_experience():
-    current_year = 2024
+    current_year = 2025
     while True:
         try:
             work_year = int(input("А в каком году Вы вообще пришли к нам работать?: "))
@@ -153,7 +153,7 @@ def main():
     salary_increase = get_salary_increase()
     print(f"То есть вы хотите больше на {salary_increase} рублей... Хм.....")
     work_experience = get_work_experience()
-    print(f"Получается, вы работаете у нас уже почти {work_experience} лет. Хм.....")
+    print(f"Получается, вы работаете у нас уже почти {work_experience} лет/год. Хм.....")
     sleep(2)
     print("В общем, я проанализировал полученную информацию, и боюсь, что смогу поднять вам оклад всего на 500 рублей.")
     print("Если хотите больше — обратитесь к Сергею Анатольевичу.")

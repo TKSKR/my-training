@@ -1,0 +1,14 @@
+{
+    "id": "2bd41013-4a36-4f80-8451-9b4e38a13150",
+    "deviceId": "618a347add42b97e17c59728",
+    "deviceNumber": "2022829",
+    "contragentId": "55260916-9598-49be-b6d0-d4c3c8cdb801",
+    "model": "Scania",
+    "carNumber": "А422РХ33",
+    "vinNumber": "YS2G4X20002108693",
+    "carType": "Truck",
+    "carEnabledState": "Activated",
+    "isEnabled": true,
+    "comment": null,
+    "carGroupIds": []
+}
